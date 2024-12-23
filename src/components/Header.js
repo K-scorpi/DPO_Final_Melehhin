@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="header">
             <div className="container header-container">
-                <div className="header-logo">Название компании</div>
+                <div className="header-logo">Taxi Company</div>
                 <nav className="header-nav">
                     <a href="#tariffs">Тарифы</a>
                     <a href="#order">Заказать такси</a>

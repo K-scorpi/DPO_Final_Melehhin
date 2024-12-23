@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/reviews.css';
+import person1 from '../assets/person1.jpg'
 
 const reviewsData = [
     {
@@ -26,18 +27,18 @@ const reviewsData = [
         text: 'Хорошее качество обслуживания',
         position: 'Дизайнер',
     },
-  {
-      id: 5,
-      author: 'Петр Сидоров',
-      text: 'Всегда доволен поездкой, рекомендую!',
-      position: 'Программист',
-  },
-  {
-    id: 6,
-    author: 'Ольга Морозова',
-    text: 'Быстрая подача, вежливые водители',
-      position: 'Менеджер',
-  },
+    {
+        id: 5,
+        author: 'Петр Сидоров',
+        text: 'Всегда доволен поездкой, рекомендую!',
+        position: 'Программист',
+    },
+    {
+        id: 6,
+        author: 'Ольга Морозова',
+        text: 'Быстрая подача, вежливые водители',
+        position: 'Менеджер',
+    },
     {
         id: 7,
         author: 'Сергей Кузнецов',
@@ -77,6 +78,7 @@ function ReviewsSection() {
                      </div>
                  ))}
                 </div>
+                <img src={person1} alt="Человек" className="review-image" />
             </div>
         </section>
     );

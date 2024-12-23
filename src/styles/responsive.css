@@ -1,74 +1,73 @@
 @media (max-width: 768px) {
 
-    .container {
-      width: 95%;
+  .container {
+    width: 95%;
+  }
+
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-right {
+    width: 100%;
+  }
+    .tariff-container {
+      flex-direction: column;
+      gap: 10px;
     }
-  
-  
-    .hero-left {
-      width: 100%;
-    }
-  
-    .hero-right {
-      width: 100%;
-    }
-      .tariff-container {
+  .tariff-card{
+    width: 100%;
+      min-width: auto;
+  }
+    .about-container {
         flex-direction: column;
-        gap: 10px;
-      }
-    .tariff-card{
-      width: 100%;
-        min-width: auto;
     }
-      .about-container {
-          flex-direction: column;
-      }
-      .about-left {
-          width: 100%;
-        min-width: auto;
-      }
-      .about-right {
-          width: 100%;
-        min-width: auto;
-  
-      }
-      .about-image{
+    .about-left {
         width: 100%;
-      }
-      .order-form{
+      min-width: auto;
+    }
+    .about-right {
         width: 100%;
-  
-      }
-    .hero-right .order-form {
+      min-width: auto;
+
+    }
+    .about-image{
       width: 100%;
     }
-     .work-steps {
-       flex-direction: column;
-     }
-      .work-step {
-          width: 100%;
-      }
-    .review-image{
+    .order-form{
+      width: 100%;
+
+    }
+  .hero-right .order-form {
+    width: 100%;
+  }
+   .work-steps {
+     flex-direction: column;
+   }
+    .work-step {
+        width: 100%;
+      margin-bottom: 20px; /* Добавлен отступ между карточками */
+    }
+  .review-image{
+    width: 100%;
+    position: static;
+    height: auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+      gap: 10px;
+    text-align: center;
+  }
+    .rotating-text-container{
+        margin-bottom: 10px;
+    }
+
+  .reviews-section .review-image{
       width: 100%;
       position: static;
       height: auto;
     }
-  
-    .footer-container {
-      flex-direction: column;
-        gap: 10px;
-      text-align: center;
-    }
-      .rotating-text-container{
-          margin-bottom: 10px;
-      }
-  
-    .reviews-section .review-image{
-        width: 100%;
-        position: static;
-        height: auto;
-      }
-  
-  
-  
-  }
+
+}

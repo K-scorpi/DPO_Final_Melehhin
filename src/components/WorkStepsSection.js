@@ -19,7 +19,7 @@ function WorkStepsSection() {
                               <path d="M12 21C16.97 21 21 16.97 21 12C21 7.03 16.97 3 12 3C7.03 3 3 7.03 3 12C3 16.97 7.03 21 12 21ZM12 23C18.075 23 23 18.075 23 12C23 5.925 18.075 1 12 1C5.925 1 1 5.925 1 12C1 18.075 5.925 23 12 23Z" fill="#0166FF"/>
                            </svg>
                         </span>
-                        <p className="step-title">НИЖНИЕ ЦЕНЫ</p>
+                        <p className="step-title">НИЗНИЕ ЦЕНЫ</p>
                         <p className="step-text">Мы не гонимся за прибылью. Мы просто делаем своё дело.</p>
                     </div>
                     <div className="work-step">

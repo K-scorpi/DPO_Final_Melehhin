@@ -7,8 +7,9 @@ import ReviewSection from './components/ReviewSection';
 import Footer from './components/Footer';
 import RotatingText from './components/RotatingText';
 import RegistrationSection from './components/RegistrationSection';
-import ReviewsSection from './components/ReviewsSection';
-import './styles.css';
+//import ReviewsSection from './components/ReviewsSection';
+import WorkStepsSection from "./components/WorkStepsSection";
+import './styles/base.css';
 
 function App() {
     return (
@@ -18,10 +19,10 @@ function App() {
             <TariffSection id="tariffs"/>
             <RotatingText/>
             <AboutSection id="about"/>
-            <ReviewSection id="order"/>
             <RotatingText/>
+            <WorkStepsSection/>
             <RegistrationSection/>
-            <ReviewsSection/>
+            <ReviewSection id="order"/>
             <Footer/>
         </div>
     );

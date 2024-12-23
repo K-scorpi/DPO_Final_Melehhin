@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles.css';
+import '../styles/about.css';
 import person2 from '../assets/person2.jpg';
-import OrderForm from './OrderForm';  // Импорт компонента
+import OrderForm from './OrderForm';
 
 function AboutSection() {
     return (
-        <section className="about-section">
+        <section className="about-section" id="about">
             <div className="container about-container">
                 <div className="about-left">
                     <h2>АКЦИЯ! СКИДКИ <br/>НА ТАРИФ "КОМФОРТ"</h2>
@@ -14,8 +14,9 @@ function AboutSection() {
                 <div className="about-right">
                      <OrderForm/>
                 </div>
+                <img src={person2} alt="Девушка с телефоном" className="about-image" />
+
             </div>
-            <img src={person2} alt="Девушка с телефоном" className="about-image" />
         </section>
     );
 }

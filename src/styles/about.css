@@ -1,0 +1,39 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.about-left {
+    width: 40%;
+    color: white;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.about-right {
+    width: 30%;
+    min-width: 200px;
+}
+
+.about-left h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.about-image {
+    object-fit: cover;
+    width: 50%;
+    opacity: 0.8;
+    height: auto;
+}

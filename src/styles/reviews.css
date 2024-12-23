@@ -1,0 +1,33 @@
+.reviews-section .review-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .reviews-section .review-card {
+      text-align: left;
+      margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 20px;
+    background-color: white;
+    width: 30%;
+      min-width: 250px;
+  
+    transition: all 0.3s ease;
+    opacity: 0.6;
+  }
+  
+  .reviews-section .review-card.active {
+      opacity: 1;
+  }
+  .reviews-section .review-text {
+      font-size: 1.2em;
+  }
+  
+  .reviews-section .review-author {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .reviews-section .review-position{
+    color: #777;
+  }

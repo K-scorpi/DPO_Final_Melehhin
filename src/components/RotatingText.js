@@ -1,6 +1,5 @@
 import React from 'react';
-import '../styles.css';
-
+import '../styles/rotating-text.css';
 function RotatingText() {
   return (
     <div className="rotating-text-container">

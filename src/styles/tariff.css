@@ -1,0 +1,31 @@
+.tariff-section {
+    padding: 40px 0;
+}
+
+.tariff-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tariff-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    text-align: center;
+    width: 30%;
+    min-width: 200px;
+}
+
+.tariff-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.tariff-section::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.header {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header-nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}

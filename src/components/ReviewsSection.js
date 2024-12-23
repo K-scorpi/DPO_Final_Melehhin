@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles.css';
+import '../styles/reviews.css';
 
 const reviewsData = [
     {
@@ -26,18 +26,18 @@ const reviewsData = [
         text: 'Хорошее качество обслуживания',
         position: 'Дизайнер',
     },
-  {
-      id: 5,
-      author: 'Петр Сидоров',
-      text: 'Всегда доволен поездкой, рекомендую!',
-      position: 'Программист',
-  },
-  {
-    id: 6,
-    author: 'Ольга Морозова',
-    text: 'Быстрая подача, вежливые водители',
-      position: 'Менеджер',
-  },
+    {
+        id: 5,
+        author: 'Петр Сидоров',
+        text: 'Всегда доволен поездкой, рекомендую!',
+        position: 'Программист',
+    },
+    {
+        id: 6,
+        author: 'Ольга Морозова',
+        text: 'Быстрая подача, вежливые водители',
+        position: 'Менеджер',
+    },
     {
         id: 7,
         author: 'Сергей Кузнецов',
@@ -58,7 +58,7 @@ function ReviewsSection() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentReviewIndex((prevIndex) => (prevIndex + 1) % reviewsData.length);
-        }, 5000); // Change review every 5 seconds
+        }, 5000);
         return () => clearInterval(interval);
     }, []);
 
@@ -67,15 +67,15 @@ function ReviewsSection() {
             <div className="container reviews-container">
                 <h2>Отзывы клиентов</h2>
                 <div className="review-cards">
-                  {reviewsData.map((review, index) => (
-                     <div key={review.id}
-                         className={`review-card ${index === currentReviewIndex ? 'active' : ''}`}
-                         >
-                       <p className="review-text">{review.text}</p>
-                       <p className="review-author">{review.author}</p>
-                       <p className="review-position">{review.position}</p>
-                     </div>
-                 ))}
+                    {reviewsData.map((review, index) => (
+                        <div key={review.id}
+                             className={`review-card ${index === currentReviewIndex ? 'active' : ''}`}
+                        >
+                            <p className="review-text">{review.text}</p>
+                            <p className="review-author">{review.author}</p>
+                            <p className="review-position">{review.position}</p>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>

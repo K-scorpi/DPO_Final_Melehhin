@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DPO_Final_Melehhin/static/css/main.8a451442.css",
-    "main.js": "/DPO_Final_Melehhin/static/js/main.cc95e766.js",
+    "main.js": "/DPO_Final_Melehhin/static/js/main.c54dba06.js",
     "static/media/person2.jpg": "/DPO_Final_Melehhin/static/media/person2.653c3e3cf5175ab51ede.jpg",
     "static/media/person1.jpg": "/DPO_Final_Melehhin/static/media/person1.fe4ebe23e96c3ac15c9d.jpg",
     "static/media/background2.jpg": "/DPO_Final_Melehhin/static/media/background2.c92a15365fb26334f231.jpg",
@@ -11,10 +11,10 @@
     "static/media/car1.png": "/DPO_Final_Melehhin/static/media/car1.b52e56cd397580724e03.png",
     "index.html": "/DPO_Final_Melehhin/index.html",
     "main.8a451442.css.map": "/DPO_Final_Melehhin/static/css/main.8a451442.css.map",
-    "main.cc95e766.js.map": "/DPO_Final_Melehhin/static/js/main.cc95e766.js.map"
+    "main.c54dba06.js.map": "/DPO_Final_Melehhin/static/js/main.c54dba06.js.map"
   },
   "entrypoints": [
     "static/css/main.8a451442.css",
-    "static/js/main.cc95e766.js"
+    "static/js/main.c54dba06.js"
   ]
 }

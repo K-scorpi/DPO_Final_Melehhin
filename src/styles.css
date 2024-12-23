@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -23,6 +24,13 @@ body {
 .header-logo {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.header-nav a{
+    margin: 0 15px;
+  text-decoration: none;
+    color: black;
+
 }
 
 .header-info {
@@ -170,6 +178,40 @@ body {
 .review-section h2 {
     text-align: center;
 }
+.reviews-section .review-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.reviews-section .review-card {
+    text-align: left;
+    margin-bottom: 20px;
+  border: 1px solid #eee;
+  padding: 20px;
+  background-color: white;
+  width: 30%;
+    min-width: 250px;
+
+  transition: all 0.3s ease;
+  opacity: 0.6;
+}
+
+.reviews-section .review-card.active {
+    opacity: 1;
+}
+.reviews-section .review-text {
+    font-size: 1.2em;
+}
+
+.reviews-section .review-author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.reviews-section .review-position{
+  color: #777;
+}
+
 
 .work-steps {
     display: flex;
@@ -191,14 +233,10 @@ body {
 }
 
 .review-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 30%;
-    object-fit: cover;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.8;
+  object-fit: cover;
+  width: 100%;
+  position: static;
+  height: auto;
 }
 
 .footer {
@@ -320,7 +358,7 @@ body {
 @media (max-width: 768px) {
 
   .container {
-    width: 95%;  /* уменьшаем ширину */
+    width: 95%;
   }
 
 
@@ -367,7 +405,7 @@ body {
     .work-step {
         width: 100%;
     }
-    .review-image{
+   .review-image{
     width: 100%;
     position: static;
     height: auto;
@@ -381,5 +419,15 @@ body {
     .rotating-text-container{
         margin-bottom: 10px;
     }
+
+  .reviews-section .review-image{
+      width: 100%;
+      position: static;
+      height: auto;
+    }
+  .registration-form .form-group{
+    margin-bottom: 10px;
+  }
+
 
 }

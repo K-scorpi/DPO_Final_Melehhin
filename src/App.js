@@ -5,7 +5,9 @@ import TariffSection from './components/TariffSection';
 import AboutSection from './components/AboutSection';
 import ReviewSection from './components/ReviewSection';
 import Footer from './components/Footer';
-import RotatingText from './components/RotatingText'
+import RotatingText from './components/RotatingText';
+import RegistrationSection from './components/RegistrationSection';
+import ReviewsSection from './components/ReviewsSection';
 import './styles.css';
 
 function App() {
@@ -13,10 +15,13 @@ function App() {
         <div className="App">
             <Header/>
             <HeroSection/>
-            <TariffSection/>
+            <TariffSection id="tariffs"/>
             <RotatingText/>
-            <AboutSection/>
-            <ReviewSection/>
+            <AboutSection id="about"/>
+            <ReviewSection id="order"/>
+            <RotatingText/>
+            <RegistrationSection/>
+            <ReviewsSection/>
             <Footer/>
         </div>
     );

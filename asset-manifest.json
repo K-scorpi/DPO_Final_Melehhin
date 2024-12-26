@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/DPO_Final_Melehhin/static/css/main.8a451442.css",
-    "main.js": "/DPO_Final_Melehhin/static/js/main.35b4ac8f.js",
-    "static/media/person2.jpg": "/DPO_Final_Melehhin/static/media/person2.653c3e3cf5175ab51ede.jpg",
-    "static/media/person1.jpg": "/DPO_Final_Melehhin/static/media/person1.fe4ebe23e96c3ac15c9d.jpg",
-    "static/media/background2.jpg": "/DPO_Final_Melehhin/static/media/background2.c92a15365fb26334f231.jpg",
-    "static/media/background1.jpg": "/DPO_Final_Melehhin/static/media/background1.d723df75e66db4a90f39.jpg",
-    "static/media/car3.png": "/DPO_Final_Melehhin/static/media/car3.cf014bc868e07bc68e36.png",
-    "static/media/car2.png": "/DPO_Final_Melehhin/static/media/car2.e254411cf8190e7838b3.png",
-    "static/media/car1.png": "/DPO_Final_Melehhin/static/media/car1.b52e56cd397580724e03.png",
-    "index.html": "/DPO_Final_Melehhin/index.html",
-    "main.8a451442.css.map": "/DPO_Final_Melehhin/static/css/main.8a451442.css.map",
-    "main.35b4ac8f.js.map": "/DPO_Final_Melehhin/static/js/main.35b4ac8f.js.map"
+    "main.css": "/DPO_Final_Melekhin/static/css/main.4f6511fc.css",
+    "main.js": "/DPO_Final_Melekhin/static/js/main.a3eb987b.js",
+    "static/media/person2.jpg": "/DPO_Final_Melekhin/static/media/person2.653c3e3cf5175ab51ede.jpg",
+    "static/media/person1.jpg": "/DPO_Final_Melekhin/static/media/person1.fe4ebe23e96c3ac15c9d.jpg",
+    "static/media/background2.jpg": "/DPO_Final_Melekhin/static/media/background2.c92a15365fb26334f231.jpg",
+    "static/media/background1.jpg": "/DPO_Final_Melekhin/static/media/background1.d723df75e66db4a90f39.jpg",
+    "static/media/car3.png": "/DPO_Final_Melekhin/static/media/car3.cf014bc868e07bc68e36.png",
+    "static/media/car2.png": "/DPO_Final_Melekhin/static/media/car2.e254411cf8190e7838b3.png",
+    "static/media/car1.png": "/DPO_Final_Melekhin/static/media/car1.b52e56cd397580724e03.png",
+    "index.html": "/DPO_Final_Melekhin/index.html",
+    "main.4f6511fc.css.map": "/DPO_Final_Melekhin/static/css/main.4f6511fc.css.map",
+    "main.a3eb987b.js.map": "/DPO_Final_Melekhin/static/js/main.a3eb987b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a451442.css",
-    "static/js/main.35b4ac8f.js"
+    "static/css/main.4f6511fc.css",
+    "static/js/main.a3eb987b.js"
   ]
 }
